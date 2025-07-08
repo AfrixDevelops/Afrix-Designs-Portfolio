@@ -209,10 +209,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #F44336, #580b05 );
-				background-image: -webkit-linear-gradient(to right, #F44336, #580b05 );
-				background-image: -ms-linear-gradient(to right, #F44336, #580b05 );
-				background-image: linear-gradient(to right, #F44336, #580b05 );
+				background-image: -moz-linear-gradient(to right, #0F3D7F, #547FCC);
+				background-image: -webkit-linear-gradient(to right, #0F3D7F, #547FCC);
+				background-image: -ms-linear-gradient(to right, #0F3D7F, #547FCC);
+				background-image: linear-gradient(to right, #0F3D7F, #547FCC);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2609,7 +2609,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b93636;
+					color: #0F3D7F;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3079,7 +3079,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: rgb(15 61 127 / 63%);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3846,14 +3846,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #542929;
+				background: #042D5E;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #580b05, #F44336);
-				background-image: -webkit-linear-gradient(to right, #580b05, #F44336);
-				background-image: -ms-linear-gradient(to right, #580b05, #F44336);
-				background-image: linear-gradient(to right, #580b05, #F44336);
+				background-image: -moz-linear-gradient(to right, #0F3D7F, #547FCC);
+				background-image: -webkit-linear-gradient(to right, #0F3D7F, #547FCC);
+				background-image: -ms-linear-gradient(to right, #0F3D7F, #547FCC);
+				background-image: linear-gradient(to right, #0F3D7F, #547FCC);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
