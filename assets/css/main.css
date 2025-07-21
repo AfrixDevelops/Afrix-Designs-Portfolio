@@ -16,6 +16,7 @@
 	
 }
 
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -4008,3 +4009,39 @@ input, select, textarea {
 			font-family: "elza", sans-serif !important;
 			margin-bottom: .3em !important;
 		}
+
+
+
+		
+  .swiper {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 0;
+  }
+  .swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+
+  
+			@media screen and (max-width: 736px) {
+
+				.swiper {
+					width: 80%;
+					max-width: 1000px;
+					margin: auto;
+					padding: 5rem;
+				}
+
+				.swiper-slide img {
+					width: 100%;
+					height: auto;
+					border-radius: 12px;
+					box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+				}
+
+			}
