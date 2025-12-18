@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("https://use.typekit.net/nip5cby.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
 /*
@@ -1931,6 +1931,29 @@ input, select, textarea {
 			color: #312450 !important;
 		}
 
+		.button.han-c1 {
+			background-color: #ec4899;
+			color: #ffffff !important;
+		}
+
+		.button.han-c2 {
+			background-color: #fbcfe8;
+			color: #000000 !important;
+		}
+
+		.button.han-c3 {
+			background-color: #f9fafb;
+			color: #000000  !important;
+		}
+
+		.button.han-c4 {
+			background-color: #f1eae9;
+			color: #000000 !important;
+		}
+
+
+
+
 		.button.noble-c1 {
 			background-color: #C41532;
 			color: #ffffff !important;
@@ -3575,6 +3598,17 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	.video-wrapper {
+  max-width: 50%;
+}
+
+.video-wrapper video {
+  width: 50%;
+  height: auto;
+  margin-left: 5rem;
+}
+
+
 /* Footer */
 
 	#sidebar + #wrapper + #footer {
@@ -3985,6 +4019,16 @@ input, select, textarea {
 					font-size: 1em;
 				}
 
+				.video-wrapper {
+ 				 max-width: 80%;
+				}
+
+			.video-wrapper video {
+  				width: 80%;
+  				height: auto;
+  				
+				}
+
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3992,6 +4036,9 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
+			
+
 
 		}
 
@@ -4009,6 +4056,13 @@ input, select, textarea {
 			font-family: "elza", sans-serif !important;
 			margin-bottom: .3em !important;
 		}
+
+		.font-used-han{
+			font-family: font-family: "Inter", sans-serif !important;
+			
+		}
+
+		
 
 
 
@@ -4045,3 +4099,5 @@ input, select, textarea {
 				}
 
 			}
+
+
